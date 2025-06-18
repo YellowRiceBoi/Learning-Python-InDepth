@@ -1,21 +1,23 @@
 import math
 
 def calculator():
-    x = input("First number: ")
-    y = input("Second number: ")
+    x = float(input("First number: "))
     z = input("Operator: ")
-    if z == "+":
-        result = float(x) + float(y)
+    y = float(input("Second number: "))
+    if x and y == float and z == "+":
+        result = x + y
         print(result)
     elif z == "-":
-        result = float(x) - float(y)
+        result = x - y
         print(result)
     elif z == "*":
-        result = float(x) * float(y)
+        result = x * y
         print(result)
     elif z == "/":
-        result = float(x) / float(y)
+        result = x / y
         print(result)
+    else:
+        print("Invalid operator")
 
 if __name__ == "__main__":
     calculator()
