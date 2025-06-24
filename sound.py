@@ -20,3 +20,8 @@ write("recording0.wav", freq, recording_int16)
 
 # Convert the NumPy array to audio file
 wv.write("recording1.wav", recording_int16, freq, sampwidth=2)
+
+# Play the recorded audio
+sd.play(recording_int16, freq)
+sd.wait()  # Wait until the audio is finished playing
+sd.stop()  # Stop the playback
