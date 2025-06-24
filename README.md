@@ -12,3 +12,6 @@ Ein simples Wort erraten Spiel, ähnlich wie Galgenmänchen. Man hat 12 Versuche
 
 ## translator.py
 Ein simples Programm, dass einen Satz in eine geheime Sprache umstellt. Statt den Vokalen, wird ein G/g eingesetzt
+
+## sound.py
+Ein simples Programm zum testen, wie man Audio aufnimmt.
