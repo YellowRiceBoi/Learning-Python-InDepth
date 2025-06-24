@@ -4,7 +4,7 @@ def calculator():
     x = float(input("First number: "))
     z = input("Operator: ")
     y = float(input("Second number: "))
-    if x and y == float and z == "+":
+    if z == "+":
         result = x + y
         print(result)
     elif z == "-":

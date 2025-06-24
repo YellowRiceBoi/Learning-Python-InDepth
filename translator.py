@@ -11,6 +11,3 @@ def translate(phrase):
     return translation
 
 print(translate(input("Enter a phrase: ")))
-
-string = "hello"
-print(type(string))
